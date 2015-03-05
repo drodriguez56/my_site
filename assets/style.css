@@ -67,7 +67,9 @@ li{
 ul a{
   padding: 1em;
   background-color: #262626;
-  display: block;
+  display: inline-block;
+  float:left;
+  left: 0px;
 }
 ul a:hover{
   background-color: #246DC9;
