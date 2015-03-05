@@ -26,6 +26,7 @@
 .icon-chevron-down:before {
   content: "\f078";
   font-size: 2em;
+  color: white;
 }
 
 .icon-mail:before {
