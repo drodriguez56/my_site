@@ -2,7 +2,7 @@ $(document).ready(function(){
   $(document).foundation();
 
   $(window).scroll(function(){
-      if ($(this).scrollTop() > $("#profile").offset().top) {
+      if ($(this).scrollTop() >= $("#profile").offset().top) {
           $('.main-nav-full').addClass('fixed');
           $('.main-nav-responsive').addClass('fixed');
       } else {
