@@ -13,7 +13,7 @@ $(document).ready(function(){
 
   $(".responsive-nav-a").click(function(event){
     event.preventDefault();
-    $( ".drop" ).slideToggle( "slow" );
+    $( ".drop" ).slideToggle( "fast" );
   });
 
   $('.nav-button').click(function(){
