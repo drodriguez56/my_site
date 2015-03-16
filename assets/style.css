@@ -178,17 +178,33 @@ a:hover{
 }
 
 .box{
-  /*background-color: rgba(36,109,201,0.2);*/
-  border-radius: 10px;
-  padding: 0;
-  margin-top: 0;
-  height: 300px;
-  margin: 10px;
+  background-color: rgba(36,109,201,0.2);
+  height: 250px;
+  width: 250px;
+  display: inline-block;
 }
 footer{
   height: 100%;
   background-color:#3A3B38;
   color: #A1A39D;
+}
+.img-projects{
+  position: relative;
+}
+.desc{
+  color: white;
+  background-color: rgba(0,0,0,0.3);
+  font-weight: lighter;
+  height: 60px;
+  padding: 0;
+  margin: 0;
+  position: absolute;
+  width: 250px;
+  margin-top: -250px;
+
+}
+.space-bx{
+  margin-right: 20px;
 }
 #contact{
   color: white;
@@ -267,15 +283,22 @@ a.a-contact{
     .subtitle{
       font-size: 1em;
     }
+    .desc{
+      font-size: 1em;
+    }
+    .space-bx{
+      margin-bottom: 20px;
+      margin-right: 0;
+    }
     p{
       font-size: 1.2em;
     }
     a.a-contact{
       font-size: 1.5em;
     }
-    .box{
+/*    .box{
       margin: 10px 0 10px 0;
-    }
+    }*/
     .no-drop{
       display: none;
     }
