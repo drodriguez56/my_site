@@ -117,8 +117,11 @@ html,body{
   text-align: center;
   position: relative;
   background: url('../vendor/img/background.jpg');
-  background-size: cover;
+  background-size: 100%;
   background-attachment: fixed;
+}
+.logo{
+  height: 150px;
 }
 .section-title{
   width: 90%;
@@ -247,6 +250,10 @@ a.a-contact{
       left: 0;
       cursor: pointer;
       cursor: hand;
+    }
+    #cover{
+      background-size: 800px;
+      background-repeat: none;
     }
     #main_home_div{
       margin-top: 50%;
